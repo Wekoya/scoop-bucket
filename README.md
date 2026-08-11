@@ -1,7 +1,7 @@
 # Scoop bucket for Wekoya Code
 
 ```powershell
-scoop bucket add wekoya https://github.com/InnovateTechWorld/scoop-bucket
+scoop bucket add wekoya https://github.com/Wekoya/scoop-bucket
 scoop install wekoya
 ```
 

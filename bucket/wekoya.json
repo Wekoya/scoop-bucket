@@ -5,27 +5,27 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/InnovateTechWorld/wekoya-releases/releases/download/v0.1.2/wekoya-code-windows-x64.zip",
+      "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.2/wekoya-code-windows-x64.zip",
       "hash": "20f9974fe4a0ceb7dfed2cd127fc8528a54647ac5470d3aff3607cfdc949ce0a"
     },
     "arm64": {
-      "url": "https://github.com/InnovateTechWorld/wekoya-releases/releases/download/v0.1.2/wekoya-code-windows-arm64.zip",
+      "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.2/wekoya-code-windows-arm64.zip",
       "hash": "805175fcb1511381ce0a1ad182b82110f89db6cd5f2791b2ff0a1efbe8c166a1"
     }
   },
   "bin": "wekoya.exe",
   "checkver": {
-    "url": "https://api.github.com/repos/InnovateTechWorld/wekoya-releases/releases/latest",
+    "url": "https://api.github.com/repos/Wekoya/wekoya-releases/releases/latest",
     "jsonpath": "$.tag_name",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/InnovateTechWorld/wekoya-releases/releases/download/v$version/wekoya-code-windows-x64.zip"
+        "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v$version/wekoya-code-windows-x64.zip"
       },
       "arm64": {
-        "url": "https://github.com/InnovateTechWorld/wekoya-releases/releases/download/v$version/wekoya-code-windows-arm64.zip"
+        "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v$version/wekoya-code-windows-arm64.zip"
       }
     }
   }
