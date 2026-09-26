@@ -1,16 +1,16 @@
 {
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "AI pair programming, built and priced for African developers",
   "homepage": "https://wekoya.tech",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.13/wekoya-code-windows-x64.zip",
-      "hash": "c803d1701c7f3d35292abe2e4efe8a878dbbe4f7cdd5fd053c23d9fcfa2b09a1"
+      "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.14/wekoya-code-windows-x64.zip",
+      "hash": "10298a75d7c825a39daaf335b46f7b680f2a71fa38040608a4a5b5b5409945f8"
     },
     "arm64": {
-      "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.13/wekoya-code-windows-arm64.zip",
-      "hash": "3c44adc1f81c759e4cb598785bc129e2f9ab5bac7affd3c346d0efce4724a395"
+      "url": "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.14/wekoya-code-windows-arm64.zip",
+      "hash": "92df80dedfe3db63ec14b9d44ae59ff71e3182507d69c6f0b05bb822ac4a7307"
     }
   },
   "bin": "wekoya.exe",
